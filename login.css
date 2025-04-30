@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.bc-img{
+    background: url(./image/flat-design-forest-landscape_23-2149155031.avif);
+    background-repeat: no-repeat ;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position:top;
+    display: flex;
+    position: fixed;
+
+}
+.main-navbar{
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.navbarlogo{
+ width: 30%;
+ padding: 0px 0px 0px 90px;
+ font-size: 25px;
+    font-weight: 900;
+}
+.navbar-content{
+    width: 50%;
+    padding: 0px 50px 0px 0px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.navbar-content .login{
+    height: 40px;
+    width: 80px;
+    border: 3px solid white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+     height: 100vh;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center; 
+     
+    
+}
+.form-main{
+    height: 350px;
+    width: 300px;
+    border: 1px solid white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    color: rgb(16, 16, 45);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    /* opacity: 0.6; */
+    
+     /* filter: blur(5px);
+     z-index: 1000; */
+     
+}
+.cancel-mark{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(16, 16, 45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 10px 0px 10px;
+    position: absolute;
+    left: 267px;
+    top: 0px;
+}
+
+.login-input-e {
+    position: relative;
+}
+.login-input-p {
+    position: relative;
+}
+.login-input-e input{
+    padding: 8px;
+    width: 220px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(16, 16, 45);
+    outline: none;
+}
+.login-input-e i{
+    position: absolute;
+    left: 200px;
+    top: 5px;
+
+}
+.login-input-p input{
+    padding: 8px;
+    width: 220px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(16, 16, 45);
+    outline: none;
+}
+.login-input-p i{
+    position: absolute;
+    left: 200px;
+    top: 5px;
+   
+}
+.Remember-cb{
+    position: absolute;
+    left: 40px;
+    top: 205px;
+}
+.Remember-txt{
+    position: absolute;
+    left: 60px;
+    top: 205px;
+    font-size: small;
+}
+.fp{
+    position: absolute;
+    left: 170px;
+    top: 205px;
+    font-size: small; 
+    text-decoration: none;  
+    color: rgb(16, 16, 45); 
+}
+.login-bt{
+    width: 220px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: rgba(3, 3, 41, 0.993);
+    color: white;
+}
+.last-rn{
+    font-size: small;
+}
+.last-rn a{
+    text-decoration: none;
+    font-weight: 800;
+    color: rgb(16, 16, 45);
+}
